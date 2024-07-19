@@ -1,0 +1,36 @@
+*
+{
+    box-sizing: border-box;
+}
+h3
+{
+    display: grid;
+    text-align: center;
+    text-decoration: underline;
+}
+nav>img
+{
+
+    height: 100%;
+    width: 100%;
+}
+nav
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    padding: 5px;
+}
+p
+{
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: skyblue;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+    color: blue;
+    font: bolder;
+}
+
